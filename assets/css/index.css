@@ -1,0 +1,35 @@
+* {
+  border: 1px solid black;
+}
+div {
+  color: blue;
+}
+
+.list-item {
+  background-color: yellow;
+}
+#list-item {
+  background-color: red;
+}
+[value] {
+  background-color: blueviolet;
+}
+
+[title="title"] {
+  background-color: mediumslateblue;
+}
+[placeholder~="end"] {
+  background-color: black;
+}
+[placeholder|="this"] {
+  background-color: brown;
+}
+[placeholder^="red"] {
+  background-color: green;
+}
+[placeholder$="orange"] {
+  background-color: grey;
+}
+[placeholder*="blue"] {
+  background-color: aqua;
+}

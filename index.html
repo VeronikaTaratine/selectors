@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/index.css"/>
+        <title>Document</title>
+  </head>
+  <body>
+      <div class="section-types_selectors">
+      <ul class="list">
+        <h1 value="1">Типи css селекторів</h1>
+
+        <li class="list-item">* - запит до усіх тегів на сторинці;</li>
+        
+        <li class="list-item">
+          Селектор тега- запит до усіх зазначених тегів на сторінці;
+        </li>
+
+        <li class="list-item">
+          Селектор класу- запит до усіх тегів із зазначеним класом на сторінці;
+        </li>
+
+        <li id="list-item">
+          Селектор ID- запит до тегу з атрибутом ID (id="") на сторінці;
+        </li>
+
+        <li class="list-item">
+          Селектор тега- запит до усіх зазначених тегів на сторінці;
+        </li>
+
+        <h1 title="title">Селектори атрибутів</h1>
+
+        <li class="list-item">
+          Селектор імені атрибута- запит до всіх елементів з ім'ям вказаного
+          атрибуту; [attr]{}=>
+        </li>
+
+        <li class="list-item">
+          Селектор імені атрибута та його значення- запит до всіх елементів з
+          ім'ям вказаного атрибуту, та значення якого точно співпадає з value;
+          [attr=value]{}
+        </li>
+
+        <li class="list-item" placeholder="start end">
+          Селектор імені атрибута та його значення за умови- запит до всіх
+          вказаних елементів та значенням яке уявляє собою набір слів розділених
+          пробілом, та одне з яких точно співпадає з value; [attr~=value]{}
+        </li>
+
+        <li class="list-item" placeholder="this-apple">
+          Селектор імені атрибута та його значення за умови- запит до всіх
+          елементів з вказаним ім'ям атрибуту значення якого точно співпадає з
+          value, або починається з value та дефісу value-; [attr|=value]{}
+        </li>
+
+        <li class="list-item"placeholder="red apple">
+          Селектор імені атрибута та його значення за умови- запит до всіх
+          елементів з вказаним ім'ям атрибуту значення якого починається з
+          value; [attr^=value]{}
+        </li>
+
+        <li class="list-item"placeholder="red orange">
+          Селектор імені атрибута та його значення за умови- запит до усіх
+          елементів з вказаним ім'ям атрибуту значення якого закінчується на
+          value; [attr$=value]{}
+        </li>
+
+        <li class="list-item" placeholder="red blue green">
+          Селектор імені атрибута та його значення за умови- запит до усіх
+          елементів з вказаним ім'ям атрибуту значення якого містить value;
+          [attr*=value]{}
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
